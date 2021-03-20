@@ -102,7 +102,7 @@ static unsigned long long BN2ull (TGLC_bn *b) {
     TGLC_bn_bn2bin (b, (unsigned char *) &tmp);
     return be64toh (tmp);
   } else {
-    assert (0);
+    //assert (0);
   }
 }
 
